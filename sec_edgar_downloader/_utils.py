@@ -18,7 +18,7 @@ def form_query_string(ticker, filing_type, before_date):
         "CIK": ticker,
         "type": filing_type,
         "dateb": before_date,
-        "output": "atom",
+        "output": "",
     }
     return urlencode(query_params)
 
